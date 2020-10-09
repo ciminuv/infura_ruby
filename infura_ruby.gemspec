@@ -11,13 +11,13 @@ Gem::Specification.new do |spec|
   spec.summary       = "Library for the INFURA API."
   spec.description   = "Ruby client to the INFURA (infura.io) API. Allows HTTP "\
                        "access to ethereum and IPFS nodes."
-  spec.homepage      = "https://github.com/jborrey/infura_ruby"
+  spec.homepage      = "https://github.com/ciminuv/infura_ruby"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(/^spec/) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "faraday", "~> 0.11.0"
+  spec.add_dependency "faraday", "~> 1.0"
   spec.add_development_dependency "bundler", "~> 1.13"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
